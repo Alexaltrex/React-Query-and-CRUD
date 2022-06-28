@@ -1,0 +1,27 @@
+@import "../../assets/scss/app.scss";
+
+.charactersInfinitePage {
+
+  .linearProgressWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    z-index: 10;
+  }
+
+  .title {
+    @include h1();
+  }
+
+  .list {
+
+  }
+
+  .seeMoreBtn {
+    margin-top: 16px;
+    text-transform: none;
+    border-radius: 100px;
+  }
+}
